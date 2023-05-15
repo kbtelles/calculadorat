@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+    --color : #D8D8D8;
+    --color1 : #292C33;
+    --color2: #9D9D9D;
+    --color3: #77787a;
+    --color4: #22C6DF;
+    --color-5: #ffffff;
+}
