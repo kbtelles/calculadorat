@@ -24,12 +24,17 @@ function delete_letter(){
     results.value = nuevoValor;
 }
 
-function calculate(){
+function calculate() {
     operation = document.querySelector(".resultado");
-    let r = eval(operation.value);
-    set_record(operation.value,r);
+    let value = operation.value;
+  
+    //operador x²
+    value = value.replace("x²", "**2");
+  
+    let r = eval(value);
+    set_record(operation.value, r);
     operation.value = r;
-}
+  }
 
 // Evento de todas las teclas
 let keys_dom = document.querySelectorAll(".key_item");

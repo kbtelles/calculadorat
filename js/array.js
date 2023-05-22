@@ -1,11 +1,10 @@
 let key = [
-    "AC", "(", ")", "C",'<img src="./img/delete.png" class="delete">',
+    "AC", "(", ")", "C", '<img src="./img/delete.png" class="delete">',
     7, 8, 9, "/", "√",
-    4, 5, 6, "*","x²",
-    1,2,3,"-","=",
-    0,".","%","+"
-];
-
+    4, 5, 6, "*", "x²", 
+    1, 2, 3, "-", "=",
+    0, ".", "%", "+"
+  ];
 function render_keys(){
     let dom_keyboard = document.querySelector(".teclado");
 
